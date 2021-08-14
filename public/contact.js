@@ -24,7 +24,7 @@ const handleSubmit2 = (e) => {
         messageWrapper.classList.add("contact-message")
         
         const contactMessage=document.createElement("p")
-        contactMessage.innerHTML = `Thank you for contacting us ${data.firstname}${data.lastname}. We will send you an email to your email address on ${data.email} about your inquiry `
+        contactMessage.innerHTML = `Thank you for contacting us ${data.firstname} ${data.lastname}. We will send you an email to your email address on ${data.email} about your inquiry `
        
 
         const closeBtn=document.createElement("button")

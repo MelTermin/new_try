@@ -85,10 +85,10 @@ titleNew.classList.add("number")
      countryName.innerHTML=specificCountryName
     
      totalCountry.classList.add("country-box")
-     totalCountry.innerHTML="Total"
+     totalCountry.innerHTML="Total Cases"
      
      totalDeath.classList.add("country-box")
-     totalDeath.innerHTML="Deaths"
+     totalDeath.innerHTML="Total Deaths"
      
      
      const title=document.createElement("p")
