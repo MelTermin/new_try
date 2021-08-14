@@ -23,8 +23,8 @@ app.get('/contact', (req,res)=> {
 })
 
 app.post('/login-fetch', (req,res)=> {
-  const { firstname, lastname } = req.body
-  res.send({firstname, lastname  })
+  const { firstname, lastname, email, subject } = req.body
+  res.send({firstname, lastname, email, subject })
 })
 
 
